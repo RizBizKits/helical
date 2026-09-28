@@ -26,7 +26,7 @@ export function SiteFooter({ onReset, showReset = false }: SiteFooterProps) {
       <p className="font-mono text-xs tracking-wide text-[var(--ink-muted)]">
         shipped by{" "}
         <a
-          href="https://rizwankhan.com"
+          href="https://rizwanakhan.com"
           target="_blank"
           rel="noopener noreferrer"
           className="underline underline-offset-2 decoration-[color-mix(in_srgb,var(--brand-steel)_55%,transparent)] transition-colors hover:text-[var(--brand-sky)] hover:decoration-[var(--brand-sky)]"

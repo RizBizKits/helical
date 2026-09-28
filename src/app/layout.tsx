@@ -35,7 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${nats.variable} ${nunito.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="flex h-full flex-col overflow-hidden bg-[var(--bg)] text-[var(--ink)]">
+      <body className="flex min-h-full flex-col bg-[var(--bg)] text-[var(--ink)]">
         {children}
       </body>
     </html>

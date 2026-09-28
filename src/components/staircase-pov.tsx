@@ -191,16 +191,6 @@ export function StaircasePov({
               strokeWidth="1.5"
               strokeDasharray="4 6"
             />
-            <text
-              x="150"
-              y="260"
-              textAnchor="middle"
-              fill="var(--ink-muted)"
-              fontSize="11"
-              fontFamily="var(--font-mono), monospace"
-            >
-              look up the climb
-            </text>
           </g>
         )}
       </svg>

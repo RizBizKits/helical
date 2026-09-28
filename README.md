@@ -1,6 +1,18 @@
 # Helical
 
-A calm little habit tracker. **Habits are steps** — each check-in climbs your staircase, and steps you already took stay with you even after quiet weeks.
+Helical is a smol habit tracker project that is low-stakes yet powerful.
+
+The name comes from a helical staircase: a continuous curve of steps winding upward around an open center.
+
+Habits are steps you take as you ascend to reach your destination.
+
+Each habit completed in a day increases the overall step count, so, even if you miss out reading a book, for example, you still made progress if you achieved going on a walk. Helical rewards some progress in some things over punishing missing a day or not completing every single one of your habits, daily. Of course, when you’re ready for it, you can zoom into stats for each habit.
+
+Another inspiration when thinking about habits and staircases was the stair stepper machine you’ll find at the gym. The step/day stat mimics the speed readout of the stepper machine as it records the average of how many steps you take on the days you climb. Check off 3 habits on Monday and 1 on Thursday, and it shows 2 steps/day and not a lower average spread across the whole week.
+
+Habits, really, are just steps.
+
+So, what are you climbing towards?
 
 ## Screenshots
 

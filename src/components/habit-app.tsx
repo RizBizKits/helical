@@ -52,7 +52,7 @@ export function HabitApp() {
   }
 
   return (
-    <div className="relative flex h-dvh max-h-dvh flex-col overflow-hidden">
+    <div className="relative flex min-h-dvh flex-col lg:h-dvh lg:max-h-dvh lg:overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-test-courses" aria-hidden />
 
       <header className="relative z-10 mx-auto flex w-full max-w-6xl shrink-0 items-center px-4 pt-5 pb-2 sm:px-6">
@@ -61,8 +61,8 @@ export function HabitApp() {
         </h1>
       </header>
 
-      <main className="relative z-10 mx-auto grid min-h-0 w-full max-w-6xl flex-1 grid-cols-1 grid-rows-[auto_minmax(0,1fr)] gap-3 px-4 pb-2 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.95fr)] lg:grid-rows-1 lg:gap-8 sm:px-6">
-        <section className="flex shrink-0 flex-col items-center justify-center lg:min-h-0 lg:overflow-hidden">
+      <main className="relative z-10 mx-auto grid w-full max-w-6xl flex-1 grid-cols-1 gap-3 px-4 pb-2 sm:px-6 lg:min-h-0 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.95fr)] lg:grid-rows-1 lg:gap-8">
+        <section className="flex flex-col items-center justify-center lg:min-h-0 lg:overflow-hidden">
           <StaircasePov
             steps={stepCount}
             celebrateToken={celebrateToken}
@@ -71,7 +71,7 @@ export function HabitApp() {
           <ClimbStats store={store} />
         </section>
 
-        <section className="flex min-h-0 flex-col overflow-hidden">
+        <section className="flex flex-col lg:min-h-0 lg:overflow-hidden">
           <form
             onSubmit={handleAdd}
             className="mb-2 flex shrink-0 flex-col gap-2 sm:flex-row"
@@ -107,7 +107,7 @@ export function HabitApp() {
             </p>
           )}
 
-          <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
+          <div className="lg:min-h-0 lg:flex-1 lg:overflow-y-auto lg:overscroll-contain lg:pr-1">
             {isEmpty ? (
               <EmptyState
                 onFocusAdd={() => {
